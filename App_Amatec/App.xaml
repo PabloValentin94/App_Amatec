@@ -22,6 +22,40 @@
 
             </Style>
 
+            <Style x:Key="grids_style" TargetType="Grid">
+
+                <Setter Property="ColumnDefinitions" Value="*"/>
+                <Setter Property="RowDefinitions" Value="60,*"/>
+
+            </Style>
+
+            <Style x:Key="lists_style" TargetType="Grid">
+
+                <Setter Property="Padding" Value="5"/>
+                <Setter Property="ColumnDefinitions" Value="*,*"/>
+                <Setter Property="RowDefinitions" Value="*,*"/>
+                <Setter Property="ColumnSpacing" Value="5"/>
+                <Setter Property="RowSpacing" Value="5"/>
+
+            </Style>
+
+            <Style x:Key="items_style" TargetType="ImageButton">
+
+                <Setter Property="BorderWidth" Value="5"/>
+                <Setter Property="BorderColor" Value="#C8924C"/>
+                <Setter Property="Aspect" Value="Fill"/>
+
+            </Style>
+
+            <Style x:Key="titles_style" TargetType="Label">
+
+                <Setter Property="FontSize" Value="30"/>
+                <Setter Property="FontAttributes" Value="Bold"/>
+                <Setter Property="TextColor" Value="#C8924C"/>
+                <Setter Property="HorizontalTextAlignment" Value="Center"/>
+
+            </Style>
+
         </ResourceDictionary>
         
     </Application.Resources>

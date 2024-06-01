@@ -4,33 +4,37 @@
              x:Class="App_Amatec.Home"
              Title="Home"
              Style="{ StaticResource pages_style }">
-    
-    <VerticalStackLayout HorizontalOptions="Center" VerticalOptions="Center" Spacing="50">
 
-        <!-- https://www.flaticon.com/br/icones-gratis/streaming-de-video -->
+    <ScrollView>
 
-        <Image x:Name="img_icone" WidthRequest="200"/>
+        <VerticalStackLayout HorizontalOptions="Center" VerticalOptions="Center" Spacing="50">
 
-        <Label x:Name="lbl_introducao" FontSize="20">
+            <!-- https://www.flaticon.com/br/icones-gratis/streaming-de-video -->
 
-            <Label.FormattedText>
+            <Image x:Name="img_icone" WidthRequest="200"/>
 
-                <FormattedString>
+            <Label x:Name="lbl_introducao" FontSize="20" HorizontalTextAlignment="Center">
 
-                    <Span Text="Olá, usuário(a)! Seja bem-vindo(a) ao Amatec, um aplicativo " TextColor="#FFFFFF"/>
+                <Label.FormattedText>
 
-                    <Span Text="que exibe animes, filmes e séries populares, em 2024. Clique na aba " TextColor="#FFFFFF"/>
+                    <FormattedString>
 
-                    <Span Text="Content" TextColor="#C8924C" FontAttributes="Bold"/>
+                        <Span Text="Olá, usuário(a)! Seja bem-vindo(a) ao Amatec, um aplicativo " TextColor="#FFFFFF"/>
 
-                    <Span Text=", para ver as opções fornecidas." TextColor="#FFFFFF"/>
+                        <Span Text="que exibe animes, filmes e séries populares, em 2024. Clique na aba " TextColor="#FFFFFF"/>
 
-                </FormattedString>
-                
-            </Label.FormattedText>
-            
-        </Label>
+                        <Span Text="Content" TextColor="#C8924C" FontAttributes="Bold"/>
 
-    </VerticalStackLayout>
+                        <Span Text=", para ver as opções fornecidas." TextColor="#FFFFFF"/>
+
+                    </FormattedString>
+
+                </Label.FormattedText>
+
+            </Label>
+
+        </VerticalStackLayout>
+
+    </ScrollView>
     
 </ContentPage>

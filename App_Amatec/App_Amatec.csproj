@@ -58,10 +58,46 @@
 
 	<ItemGroup>
 	  <None Remove="Assets\Icon.png" />
+	  <None Remove="Assets\Images\Animes\01.jpg" />
+	  <None Remove="Assets\Images\Animes\02.jpg" />
+	  <None Remove="Assets\Images\Animes\03.jpg" />
+	  <None Remove="Assets\Images\Movies\01.jpg" />
+	  <None Remove="Assets\Images\Movies\02.jpg" />
+	  <None Remove="Assets\Images\Movies\03.jpg" />
+	  <None Remove="Assets\Images\Series\01.jpg" />
+	  <None Remove="Assets\Images\Series\02.jpg" />
+	  <None Remove="Assets\Images\Series\03.jpg" />
 	</ItemGroup>
 
 	<ItemGroup>
-	  <EmbeddedResource Include="Assets\Icon.png">
+	  <EmbeddedResource Include="Assets\Images\Animes\01.jpg">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </EmbeddedResource>
+	  <EmbeddedResource Include="Assets\Images\Animes\02.jpg">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </EmbeddedResource>
+	  <EmbeddedResource Include="Assets\Images\Animes\03.jpg">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </EmbeddedResource>
+	  <EmbeddedResource Include="Assets\Images\Icon.png">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </EmbeddedResource>
+	  <EmbeddedResource Include="Assets\Images\Movies\01.jpg">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </EmbeddedResource>
+	  <EmbeddedResource Include="Assets\Images\Movies\02.jpg">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </EmbeddedResource>
+	  <EmbeddedResource Include="Assets\Images\Movies\03.jpg">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </EmbeddedResource>
+	  <EmbeddedResource Include="Assets\Images\Series\01.jpg">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </EmbeddedResource>
+	  <EmbeddedResource Include="Assets\Images\Series\02.jpg">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </EmbeddedResource>
+	  <EmbeddedResource Include="Assets\Images\Series\03.jpg">
 	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
 	  </EmbeddedResource>
 	</ItemGroup>
@@ -70,12 +106,6 @@
 		<PackageReference Include="Microsoft.Maui.Controls" Version="$(MauiVersion)" />
 		<PackageReference Include="Microsoft.Maui.Controls.Compatibility" Version="$(MauiVersion)" />
 		<PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="8.0.0" />
-	</ItemGroup>
-
-	<ItemGroup>
-	  <Folder Include="Assets\Animes\" />
-	  <Folder Include="Assets\Movies\" />
-	  <Folder Include="Assets\Series\" />
 	</ItemGroup>
 
 	<ItemGroup>

@@ -5,10 +5,31 @@
              Title="Series"
              Style="{ StaticResource pages_style }">
 
-    <VerticalStackLayout>
+    <Grid Style="{ StaticResource grids_style }">
 
-        
+        <Label Text="Movies" Style="{ StaticResource titles_style }"
+               Grid.Column="0" Grid.Row="0"/>
 
-    </VerticalStackLayout>
-    
+        <ScrollView Grid.Column="0" Grid.Row="1">
+
+            <Grid Style="{ StaticResource lists_style }">
+
+                <ImageButton x:Name="imgbtn_bridgerton" Style="{ StaticResource items_style }"
+                            Clicked="imgbtn_bridgerton_Clicked"
+                            Grid.Column="0" Grid.Row="0"/>
+
+                <ImageButton x:Name="imgbtn_bebe_rena" Style="{ StaticResource items_style }"
+                             Clicked="imgbtn_bebe_rena_Clicked"
+                             Grid.Column="1" Grid.Row="0"/>
+
+                <ImageButton x:Name="imgbtn_fallout" Style="{ StaticResource items_style }"
+                             Clicked="imgbtn_fallout_Clicked"
+                             Grid.Column="0" Grid.Row="1"/>
+
+            </Grid>
+
+        </ScrollView>
+
+    </Grid>
+
 </ContentPage>

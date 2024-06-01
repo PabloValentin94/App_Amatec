@@ -10,12 +10,24 @@ public partial class Home : ContentPage
 
 	}
 
-	// O método abaixo, é executado toda vez que a página for carregada.
+    // O método abaixo, é executado toda vez que a página for carregada.
 
-    protected override void OnAppearing()
+    protected override async void OnAppearing()
     {
 
-        img_icone.Source = ImageSource.FromResource("App_Amatec.Assets.Icon.png");
+        try
+        {
+
+            img_icone.Source = ImageSource.FromResource("App_Amatec.Assets.Images.Icon.png");
+
+        }
+
+        catch (Exception ex)
+        {
+
+            await DisplayAlert("Erro!", ex.Message, "OK");
+
+        }
 
     }
 

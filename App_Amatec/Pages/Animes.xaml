@@ -5,10 +5,31 @@
              Title="Animes"
              Style="{ StaticResource pages_style }">
 
-    <VerticalStackLayout>
+    <Grid Style="{ StaticResource grids_style }">
 
-        
+        <Label Text="Animes" Style="{ StaticResource titles_style }"
+               Grid.Column="0" Grid.Row="0"/>
 
-    </VerticalStackLayout>
-    
+        <ScrollView Grid.Column="0" Grid.Row="1">
+
+            <Grid Style="{ StaticResource lists_style }">
+
+                <ImageButton x:Name="imgbtn_demon_slayer" Style="{ StaticResource items_style }"
+                             Clicked="imgbtn_demon_slayer_Clicked"
+                             Grid.Column="0" Grid.Row="0"/>
+
+                <ImageButton x:Name="imgbtn_solo_leveling" Style="{ StaticResource items_style }"
+                             Clicked="imgbtn_solo_leveling_Clicked"
+                             Grid.Column="1" Grid.Row="0"/>
+
+                <ImageButton x:Name="imgbtn_kaiju_n8" Style="{ StaticResource items_style }"
+                             Clicked="imgbtn_kaiju_n8_Clicked"
+                             Grid.Column="0" Grid.Row="1"/>
+
+            </Grid>
+            
+        </ScrollView>
+
+    </Grid>
+
 </ContentPage>
