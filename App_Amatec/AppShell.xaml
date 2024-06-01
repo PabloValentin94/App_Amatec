@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Shell x:Class="App_Amatec.AppShell"
+       xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+       xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+       xmlns:local="clr-namespace:App_Amatec"
+       Shell.FlyoutBehavior="Disabled"
+       Shell.NavBarIsVisible="False"
+       Title="App_Amatec"
+       Style="{ StaticResource Key=shell_style }">
+
+    <Shell.Resources>
+
+        <ResourceDictionary>
+
+            <Style x:Key="shell_style" TargetType="Shell">
+
+                <Setter Property="Shell.BackgroundColor" Value="#1C242E"/>
+                <Setter Property="Shell.TitleColor" Value="#C8924C"/>
+
+                <Setter Property="Shell.TabBarBackgroundColor" Value="#1C242E"/>
+                <Setter Property="Shell.TabBarTitleColor" Value="#C8924C"/>
+                <Setter Property="Shell.TabBarUnselectedColor" Value="#FFFFFF"/>
+
+            </Style>
+            
+        </ResourceDictionary>
+        
+    </Shell.Resources>
+
+    <TabBar>
+
+        <Tab Title="About" Route="About">
+
+            <ShellContent Title="Home"
+                          ContentTemplate="{DataTemplate local:Home}"
+                          Route="Home"/>
+
+        </Tab>
+
+        <Tab Title="Content" Route="Content">
+
+            <ShellContent Title="Animes"
+                          ContentTemplate="{DataTemplate local:Pages.Animes}"
+                          Route="Animes"/>
+
+            <ShellContent Title="Movies"
+                          ContentTemplate="{DataTemplate local:Pages.Movies}"
+                          Route="Movies"/>
+
+            <ShellContent Title="Series"
+                          ContentTemplate="{DataTemplate local:Pages.Series}"
+                          Route="Series"/>
+
+        </Tab>
+        
+    </TabBar>
+
+</Shell>

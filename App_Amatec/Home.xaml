@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App_Amatec.Home"
+             Title="Home"
+             Style="{ StaticResource pages_style }">
+    
+    <VerticalStackLayout HorizontalOptions="Center" VerticalOptions="Center" Spacing="50">
+
+        <!-- https://www.flaticon.com/br/icones-gratis/streaming-de-video -->
+
+        <Image x:Name="img_icone" WidthRequest="200"/>
+
+        <Label x:Name="lbl_introducao" FontSize="20">
+
+            <Label.FormattedText>
+
+                <FormattedString>
+
+                    <Span Text="Olá, usuário(a)! Seja bem-vindo(a) ao Amatec, um aplicativo " TextColor="#FFFFFF"/>
+
+                    <Span Text="que exibe animes, filmes e séries populares, em 2024. Clique na aba " TextColor="#FFFFFF"/>
+
+                    <Span Text="Content" TextColor="#C8924C" FontAttributes="Bold"/>
+
+                    <Span Text=", para ver as opções fornecidas." TextColor="#FFFFFF"/>
+
+                </FormattedString>
+                
+            </Label.FormattedText>
+            
+        </Label>
+
+    </VerticalStackLayout>
+    
+</ContentPage>
