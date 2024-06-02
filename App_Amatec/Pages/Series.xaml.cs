@@ -1,3 +1,5 @@
+using App_Amatec.Model;
+
 namespace App_Amatec.Pages;
 
 public partial class Series : ContentPage
@@ -41,7 +43,11 @@ public partial class Series : ContentPage
         try
         {
 
+            Description description_page = new Description();
 
+            description_page.BindingContext = Examples.series[0];
+
+            await Navigation.PushAsync(description_page);
 
         }
 
@@ -60,7 +66,11 @@ public partial class Series : ContentPage
         try
         {
 
+            Description description_page = new Description();
 
+            description_page.BindingContext = Examples.series[1];
+
+            await Navigation.PushAsync(description_page);
 
         }
 
@@ -79,7 +89,11 @@ public partial class Series : ContentPage
         try
         {
 
+            Description description_page = new Description();
 
+            description_page.BindingContext = Examples.series[2];
+
+            await Navigation.PushAsync(description_page);
 
         }
 

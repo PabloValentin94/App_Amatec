@@ -4,28 +4,24 @@
        xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
        xmlns:local="clr-namespace:App_Amatec"
        Shell.FlyoutBehavior="Disabled"
-       Shell.NavBarIsVisible="False"
-       Title="App_Amatec"
-       Style="{ StaticResource Key=shell_style }">
+       Title="App_Amatec">
 
-    <Shell.Resources>
+    <Shell.Style>
 
-        <ResourceDictionary>
+        <Style TargetType="Shell">
 
-            <Style x:Key="shell_style" TargetType="Shell">
+            <Setter Property="Shell.NavBarIsVisible" Value="False"/>
 
-                <Setter Property="Shell.BackgroundColor" Value="#1C242E"/>
-                <Setter Property="Shell.TitleColor" Value="#C8924C"/>
+            <Setter Property="Shell.BackgroundColor" Value="{ StaticResource cor_pagina }"/>
+            <Setter Property="Shell.TitleColor" Value="{ StaticResource cor_principal }"/>
 
-                <Setter Property="Shell.TabBarBackgroundColor" Value="#1C242E"/>
-                <Setter Property="Shell.TabBarTitleColor" Value="#C8924C"/>
-                <Setter Property="Shell.TabBarUnselectedColor" Value="#FFFFFF"/>
+            <Setter Property="Shell.TabBarBackgroundColor" Value="{ StaticResource cor_pagina }"/>
+            <Setter Property="Shell.TabBarTitleColor" Value="{ StaticResource cor_principal }"/>
+            <Setter Property="Shell.TabBarUnselectedColor" Value="{ StaticResource cor_neutra }"/>
 
-            </Style>
-            
-        </ResourceDictionary>
+        </Style>
         
-    </Shell.Resources>
+    </Shell.Style>
 
     <TabBar>
 
@@ -52,7 +48,7 @@
                           Route="Series"/>
 
         </Tab>
-        
+
     </TabBar>
 
 </Shell>

@@ -7,7 +7,7 @@
 
     <Grid Style="{ StaticResource grids_style }">
 
-        <Label Text="Movies" Style="{ StaticResource titles_style }"
+        <Label Text="Séries" Style="{ StaticResource titles_style }"
                Grid.Column="0" Grid.Row="0"/>
 
         <ScrollView Grid.Column="0" Grid.Row="1">

@@ -3,12 +3,128 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="App_Amatec.Pages.Description"
              Title="Description"
+             Shell.TabBarIsVisible="False"
              Style="{ StaticResource pages_style }">
-    
-    <VerticalStackLayout>
+
+    <ContentPage.Resources>
+
+        <ResourceDictionary>
+
+            <Style x:Key="button_style" TargetType="Button">
+
+                <Setter Property="BackgroundColor" Value="{ StaticResource cor_principal }"/>
+                <Setter Property="TextColor" Value="{ StaticResource cor_neutra }"/>
+                <Setter Property="FontSize" Value="18"/>
+                <Setter Property="FontAttributes" Value="Bold"/>
+                <Setter Property="TextTransform" Value="Uppercase"/>
+                <Setter Property="CornerRadius" Value="50"/>
+                <Setter Property="BorderWidth" Value="2"/>
+                <Setter Property="BorderColor" Value="{ StaticResource cor_neutra }"/>
+
+            </Style>
+
+            <Style x:Key="frames_style" TargetType="Frame">
+
+                <Setter Property="Padding" Value="10"/>
+                <Setter Property="BackgroundColor" Value="Transparent"/>
+                <Setter Property="CornerRadius" Value="0"/>
+                <Setter Property="BorderColor" Value="{ StaticResource cor_principal }"/>
+
+            </Style>
+
+            <Style x:Key="labels_style" TargetType="Label">
+
+                <Setter Property="HorizontalOptions" Value="Center"/>
+                <Setter Property="VerticalOptions" Value="Center"/>
+                <Setter Property="HorizontalTextAlignment" Value="Center"/>
+                <Setter Property="VerticalTextAlignment" Value="Center"/>
+                <Setter Property="FontSize" Value="17"/>
+                <Setter Property="TextColor" Value="{ StaticResource cor_neutra }"/>
+
+            </Style>
+
+            <Style x:Key="name_style" TargetType="Label" BaseResourceKey="labels_style">
+
+                <Setter Property="FontSize" Value="25"/>
+                <Setter Property="FontAttributes" Value="Bold"/>
+                <Setter Property="TextColor" Value="{ StaticResource cor_principal }"/>
+
+            </Style>
+
+            <Style x:Key="datas_style" TargetType="Label" BaseResourceKey="labels_style">
+
+                <Setter Property="FontSize" Value="20"/>
+                <Setter Property="FontAttributes" Value="Bold"/>
+                <Setter Property="TextColor" Value="{ StaticResource cor_principal }"/>
+
+            </Style>
+
+        </ResourceDictionary>
         
-        
-        
-    </VerticalStackLayout>
+    </ContentPage.Resources>
+
+    <ContentPage.Content>
+
+        <Grid ColumnDefinitions="*" RowDefinitions="200,*,50" RowSpacing="20">
+
+            <Frame Style="{ StaticResource frames_style }" Grid.Column="0" Grid.Row="0">
+
+                <WebView Source="{ Binding link_trailer }" BackgroundColor="Transparent"/>
+
+            </Frame>
+
+            <ScrollView Grid.Column="0" Grid.Row="1">
+
+                <Grid ColumnDefinitions="*" RowDefinitions="Auto,*" RowSpacing="10">
+
+                    <Label Text="{ Binding nome }" Style="{ StaticResource name_style }"
+                           Grid.Column="0" Grid.Row="0"/>
+
+                    <Grid ColumnDefinitions="*,*" RowDefinitions="*,150"
+                          ColumnSpacing="10" RowSpacing="10"
+                          Grid.Column="0" Grid.Row="1">
+
+                        <Frame Style="{ StaticResource frames_style }" Grid.Column="0" Grid.Row="0">
+
+                            <Image x:Name="img_poster" Aspect="Fill"/>
+
+                        </Frame>
+
+                        <VerticalStackLayout HorizontalOptions="Center" VerticalOptions="Center" Spacing="15"
+                                             Grid.Column="1" Grid.Row="0">
+
+                            <Label x:Name="lbl_meio_consumo" Text="Meio de Consumo:" Style="{ StaticResource datas_style }"/>
+                            <Label Text="{ Binding forma_consumo }" Style="{ StaticResource labels_style }"/>
+
+                            <Label x:Name="lbl_data_lancamento" Text="Data de Lançamento:" Style="{ StaticResource datas_style }"/>
+                            <Label x:Name="txt_data_lancamento" Text="{ Binding data_lancamento }" Style="{ StaticResource labels_style }"/>
+
+                        </VerticalStackLayout>
+
+                        <ScrollView Grid.Column="0" Grid.Row="1" Grid.ColumnSpan="2">
+
+                            <VerticalStackLayout Spacing="10">
+
+                                <Label Text="Sinopse:" Style="{ StaticResource datas_style }"/>
+
+                                <Label Text="{ Binding sinopse }" Style="{ StaticResource labels_style }"/>
+
+                            </VerticalStackLayout>
+
+                        </ScrollView>
+
+                    </Grid>
+
+                </Grid>
+
+            </ScrollView>
+
+            <Button x:Name="btn_voltar" Clicked="btn_voltar_Clicked"
+                    Text="Voltar" Style="{ StaticResource button_style }"
+                    Grid.Column="0" Grid.Row="2"/>
+
+        </Grid>
+
+    </ContentPage.Content>
     
 </ContentPage>

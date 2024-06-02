@@ -19,13 +19,13 @@
 
                     <FormattedString>
 
-                        <Span Text="Olá, usuário(a)! Seja bem-vindo(a) ao Amatec, um aplicativo " TextColor="#FFFFFF"/>
+                        <Span Text="Olá, usuário(a)! Seja bem-vindo(a) ao Amatec, um aplicativo " TextColor="{ StaticResource cor_neutra }"/>
 
-                        <Span Text="que exibe animes, filmes e séries populares, em 2024. Clique na aba " TextColor="#FFFFFF"/>
+                        <Span Text="que exibe animes, filmes e séries populares, em 2024. Clique na aba " TextColor="{ StaticResource cor_neutra }"/>
 
-                        <Span Text="Content" TextColor="#C8924C" FontAttributes="Bold"/>
+                        <Span Text="Content" TextColor="{ StaticResource cor_principal }" FontAttributes="Bold"/>
 
-                        <Span Text=", para ver as opções fornecidas." TextColor="#FFFFFF"/>
+                        <Span Text=", para ver as opções fornecidas." TextColor="{ StaticResource cor_neutra }"/>
 
                     </FormattedString>
 

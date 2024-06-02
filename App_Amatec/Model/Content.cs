@@ -16,6 +16,10 @@ namespace App_Amatec.Model
 
         public string? poster { get; set; }
 
+        public DateTime data_lancamento { get; set; }
+
+        public string? forma_consumo { get; set; }
+
         public string? link_trailer { get; set; }
 
     }

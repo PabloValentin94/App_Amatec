@@ -14,11 +14,17 @@
                 <ResourceDictionary Source="Resources/Styles/Styles.xaml" />
                 
             </ResourceDictionary.MergedDictionaries>
+            
+            <!-- Encontram-se abaixo, as estilizações manuais do aplicativo. -->
+
+            <Color x:Key="cor_principal">#C8924C</Color>
+            <Color x:Key="cor_pagina">#1C242E</Color>
+            <Color x:Key="cor_neutra">#FFFFFF</Color>
 
             <Style x:Key="pages_style" TargetType="ContentPage">
 
                 <Setter Property="Padding" Value="20"/>
-                <Setter Property="BackgroundColor" Value="#1C242E"/>
+                <Setter Property="BackgroundColor" Value="{ StaticResource cor_pagina }"/>
 
             </Style>
 
@@ -42,7 +48,7 @@
             <Style x:Key="items_style" TargetType="ImageButton">
 
                 <Setter Property="BorderWidth" Value="5"/>
-                <Setter Property="BorderColor" Value="#C8924C"/>
+                <Setter Property="BorderColor" Value="{ StaticResource cor_principal }"/>
                 <Setter Property="Aspect" Value="Fill"/>
 
             </Style>
@@ -51,7 +57,7 @@
 
                 <Setter Property="FontSize" Value="30"/>
                 <Setter Property="FontAttributes" Value="Bold"/>
-                <Setter Property="TextColor" Value="#C8924C"/>
+                <Setter Property="TextColor" Value="{ StaticResource cor_principal }"/>
                 <Setter Property="HorizontalTextAlignment" Value="Center"/>
 
             </Style>

@@ -1,3 +1,5 @@
+using App_Amatec.Model;
+
 namespace App_Amatec.Pages;
 
 public partial class Movies : ContentPage
@@ -20,9 +22,9 @@ public partial class Movies : ContentPage
 
             imgbtn_deadpool_03.Source = ImageSource.FromResource("App_Amatec.Assets.Images.Movies.01.jpg");
 
-            imgbtn_como_eu_era_antes_de_voce.Source = ImageSource.FromResource("App_Amatec.Assets.Images.Movies.02.jpg");
+            imgbtn_uma_ideia_de_voce.Source = ImageSource.FromResource("App_Amatec.Assets.Images.Movies.02.jpg");
 
-            imgbtn_o_rei_leao.Source = ImageSource.FromResource("App_Amatec.Assets.Images.Movies.03.jpg");
+            imgbtn_mufasa_o_rei_leao.Source = ImageSource.FromResource("App_Amatec.Assets.Images.Movies.03.jpg");
 
         }
 
@@ -41,26 +43,11 @@ public partial class Movies : ContentPage
         try
         {
 
+            Description description_page = new Description();
 
+            description_page.BindingContext = Examples.movies[0];
 
-        }
-
-        catch (Exception ex)
-        {
-
-            await DisplayAlert("Erro!", ex.Message, "OK");
-
-        }
-
-    }
-
-    private async void imgbtn_como_eu_era_antes_de_voce_Clicked(object sender, EventArgs e)
-    {
-
-        try
-        {
-
-
+            await Navigation.PushAsync(description_page);
 
         }
 
@@ -73,13 +60,40 @@ public partial class Movies : ContentPage
 
     }
 
-    private async void imgbtn_o_rei_leao_Clicked(object sender, EventArgs e)
+    private async void imgbtn_uma_ideia_de_voce_Clicked(object sender, EventArgs e)
     {
 
         try
         {
 
+            Description description_page = new Description();
 
+            description_page.BindingContext = Examples.movies[1];
+
+            await Navigation.PushAsync(description_page);
+
+        }
+
+        catch (Exception ex)
+        {
+
+            await DisplayAlert("Erro!", ex.Message, "OK");
+
+        }
+
+    }
+
+    private async void imgbtn_mufasa_o_rei_leao_Clicked(object sender, EventArgs e)
+    {
+
+        try
+        {
+
+            Description description_page = new Description();
+
+            description_page.BindingContext = Examples.movies[2];
+
+            await Navigation.PushAsync(description_page);
 
         }
 

@@ -7,7 +7,7 @@
 
     <Grid Style="{ StaticResource grids_style }">
 
-        <Label Text="Movies" Style="{ StaticResource titles_style }"
+        <Label Text="Filmes" Style="{ StaticResource titles_style }"
                Grid.Column="0" Grid.Row="0"/>
 
         <ScrollView Grid.Column="0" Grid.Row="1">
@@ -18,12 +18,12 @@
                              Clicked="imgbtn_deadpool_03_Clicked"
                              Grid.Column="0" Grid.Row="0"/>
 
-                <ImageButton x:Name="imgbtn_como_eu_era_antes_de_voce" Style="{ StaticResource items_style }"
-                             Clicked="imgbtn_como_eu_era_antes_de_voce_Clicked"
+                <ImageButton x:Name="imgbtn_uma_ideia_de_voce" Style="{ StaticResource items_style }"
+                             Clicked="imgbtn_uma_ideia_de_voce_Clicked"
                              Grid.Column="1" Grid.Row="0"/>
 
-                <ImageButton x:Name="imgbtn_o_rei_leao" Style="{ StaticResource items_style }"
-                             Clicked="imgbtn_o_rei_leao_Clicked"
+                <ImageButton x:Name="imgbtn_mufasa_o_rei_leao" Style="{ StaticResource items_style }"
+                             Clicked="imgbtn_mufasa_o_rei_leao_Clicked"
                              Grid.Column="0" Grid.Row="1"/>
 
             </Grid>
