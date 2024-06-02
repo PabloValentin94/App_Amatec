@@ -16,7 +16,7 @@ namespace App_Amatec.Model
             new Content()
             {
 
-                nome = "Demon Slayer (Temporada 05)",
+                nome = "Demon Slayer (Temporada 04)",
 
                 sinopse = "Japão, era Taisho. Tanjiro, um bondoso jovem que ganha a vida vendendo carvão, " +
                           "descobre que sua família foi massacrada por um demônio, e, para piorar, Nezuko, sua " +
