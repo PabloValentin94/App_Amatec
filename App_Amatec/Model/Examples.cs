@@ -102,7 +102,7 @@ namespace App_Amatec.Model
 
                 poster = "App_Amatec.Assets.Images.Movies.01.jpg",
 
-                data_lancamento = new DateTime(2024, 06, 26),
+                data_lancamento = new DateTime(2024, 07, 26),
 
                 forma_consumo = "Cinemas",
 
