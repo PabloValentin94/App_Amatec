@@ -95,7 +95,7 @@ namespace App_Amatec.Model
             new Content()
             {
 
-                nome = "Deadpool & Wolwerine",
+                nome = "Deadpool & Wolverine",
 
                 sinopse = "Wolverine está se recuperando, quando cruza seu caminho com o de Deadpool. " +
                           "Juntos, eles formam uma equipe e enfrentam um inimigo em comum.",
