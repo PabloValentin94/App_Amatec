@@ -26,6 +26,10 @@
                              Clicked="imgbtn_fallout_Clicked"
                              Grid.Column="0" Grid.Row="1"/>
 
+                <ImageButton x:Name="imgbtn_avatar_a_lenda_de_aang_2024" Style="{ StaticResource items_style }"
+                             Clicked="imgbtn_avatar_a_lenda_de_aang_2024_Clicked"
+                             Grid.Column="1" Grid.Row="1"/>
+
             </Grid>
 
         </ScrollView>

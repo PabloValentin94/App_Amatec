@@ -35,6 +35,15 @@
 
             </Style>
 
+            <Style x:Key="titles_style" TargetType="Label">
+
+                <Setter Property="FontSize" Value="30"/>
+                <Setter Property="FontAttributes" Value="Bold"/>
+                <Setter Property="TextColor" Value="{ StaticResource cor_principal }"/>
+                <Setter Property="HorizontalTextAlignment" Value="Center"/>
+
+            </Style>
+
             <Style x:Key="lists_style" TargetType="Grid">
 
                 <Setter Property="Padding" Value="5"/>
@@ -50,15 +59,6 @@
                 <Setter Property="BorderWidth" Value="5"/>
                 <Setter Property="BorderColor" Value="{ StaticResource cor_principal }"/>
                 <Setter Property="Aspect" Value="Fill"/>
-
-            </Style>
-
-            <Style x:Key="titles_style" TargetType="Label">
-
-                <Setter Property="FontSize" Value="30"/>
-                <Setter Property="FontAttributes" Value="Bold"/>
-                <Setter Property="TextColor" Value="{ StaticResource cor_principal }"/>
-                <Setter Property="HorizontalTextAlignment" Value="Center"/>
 
             </Style>
 

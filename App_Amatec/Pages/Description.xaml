@@ -12,6 +12,7 @@
 
             <Style x:Key="button_style" TargetType="Button">
 
+                <Setter Property="VerticalOptions" Value="Center"/>
                 <Setter Property="BackgroundColor" Value="{ StaticResource cor_principal }"/>
                 <Setter Property="TextColor" Value="{ StaticResource cor_neutra }"/>
                 <Setter Property="FontSize" Value="18"/>
@@ -65,7 +66,7 @@
 
     <ContentPage.Content>
 
-        <Grid ColumnDefinitions="*" RowDefinitions="200,*,50" RowSpacing="20">
+        <Grid ColumnDefinitions="*" RowDefinitions="200,*,Auto" RowSpacing="20">
 
             <Frame Style="{ StaticResource frames_style }" Grid.Column="0" Grid.Row="0">
 
@@ -75,12 +76,12 @@
 
             <ScrollView Grid.Column="0" Grid.Row="1">
 
-                <Grid ColumnDefinitions="*" RowDefinitions="Auto,*" RowSpacing="10">
+                <Grid ColumnDefinitions="*" RowDefinitions="Auto,*" RowSpacing="20">
 
                     <Label Text="{ Binding nome }" Style="{ StaticResource name_style }"
                            Grid.Column="0" Grid.Row="0"/>
 
-                    <Grid ColumnDefinitions="*,*" RowDefinitions="*,150"
+                    <Grid ColumnDefinitions="*,*" RowDefinitions="275,Auto"
                           ColumnSpacing="10" RowSpacing="10"
                           Grid.Column="0" Grid.Row="1">
 
@@ -101,17 +102,14 @@
 
                         </VerticalStackLayout>
 
-                        <ScrollView Grid.Column="0" Grid.Row="1" Grid.ColumnSpan="2">
+                        <VerticalStackLayout HorizontalOptions="Center" VerticalOptions="Center" Spacing="10"
+                                             Grid.Column="0" Grid.Row="1" Grid.ColumnSpan="2">
 
-                            <VerticalStackLayout Spacing="10">
+                            <Label Text="Sinopse:" Style="{ StaticResource datas_style }"/>
 
-                                <Label Text="Sinopse:" Style="{ StaticResource datas_style }"/>
+                            <Label Text="{ Binding sinopse }" Style="{ StaticResource labels_style }"/>
 
-                                <Label Text="{ Binding sinopse }" Style="{ StaticResource labels_style }"/>
-
-                            </VerticalStackLayout>
-
-                        </ScrollView>
+                        </VerticalStackLayout>
 
                     </Grid>
 

@@ -26,6 +26,8 @@ public partial class Movies : ContentPage
 
             imgbtn_mufasa_o_rei_leao.Source = ImageSource.FromResource("App_Amatec.Assets.Images.Movies.03.jpg");
 
+            imgbtn_venom_03.Source = ImageSource.FromResource("App_Amatec.Assets.Images.Movies.04.jpg");
+
         }
 
         catch (Exception ex)
@@ -92,6 +94,29 @@ public partial class Movies : ContentPage
             Description description_page = new Description();
 
             description_page.BindingContext = Examples.movies[2];
+
+            await Navigation.PushAsync(description_page);
+
+        }
+
+        catch (Exception ex)
+        {
+
+            await DisplayAlert("Erro!", ex.Message, "OK");
+
+        }
+
+    }
+
+    private async void imgbtn_venom_03_Clicked(object sender, EventArgs e)
+    {
+
+        try
+        {
+
+            Description description_page = new Description();
+
+            description_page.BindingContext = Examples.movies[3];
 
             await Navigation.PushAsync(description_page);
 

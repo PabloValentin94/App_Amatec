@@ -85,6 +85,27 @@ namespace App_Amatec.Model
 
                 link_trailer = "https://www.youtube.com/embed/qGvHTuFeulM?si=p2figzdQINK6cZex"
 
+            },
+
+            new Content()
+            {
+
+                nome = "Ninja Kamui (Temporada 01)",
+
+                sinopse = "Joe Higan, um Nukenin (Ninja renegado.), escapou de seu antigo clã e se esconde " +
+                          "do seu passado violento, na zona rural da América, com a sua família (Esposa e filho.). " +
+                          "Uma noite, ele é emboscado por uma equipe de assassinos, que pertencem a sua antiga " +
+                          "organização, que impõem uma retribuição sangrenta a ele, matando sua família, devido " +
+                          "a ele ter traído o seu antigo código.",
+
+                poster = "App_Amatec.Assets.Images.Animes.04.jpg",
+
+                data_lancamento = new DateTime(2024, 02, 11),
+
+                forma_consumo = "HBO Max",
+
+                link_trailer = "https://www.youtube.com/embed/90whRiEwxnU?si=N8au7rAFxRAgoDVc"
+
             }
 
         };
@@ -146,6 +167,24 @@ namespace App_Amatec.Model
 
                 link_trailer = "https://www.youtube.com/embed/ZSD6LVpRi-k?si=YwBxkDlbedBMPgrc"
 
+            },
+
+            new Content()
+            {
+
+                nome = "Venom: a última rodada",
+
+                sinopse = "Eddie e Venom estão em fuga. Caçados por figuras de ambos os seus mundos, " +
+                          "e com os caminhos se fechando, a dupla é forçada a unir forças em sua aventura final.",
+
+                poster = "App_Amatec.Assets.Images.Movies.04.jpg",
+
+                data_lancamento = new DateTime(2024, 10, 24),
+
+                forma_consumo = "Cinemas",
+
+                link_trailer = "https://www.youtube.com/embed/c-1i96qpF-s?si=i4o7dexr8Dclnij4"
+
             }
 
         };
@@ -177,8 +216,8 @@ namespace App_Amatec.Model
 
                 nome = "Bebê Rena (Minissérie)",
 
-                sinopse = "Ainda em 2015, quando trabalhava em um café na cidade de Londres, Donny " +
-                          "(Richard Gadd), ofereceu um chá e conversou com uma mulher que, até então, não sabia " +
+                sinopse = "Ainda em 2015, quando trabalhava em um café, na cidade de Londres, Donny " +
+                          "(Richard Gadd.), ofereceu um chá e conversou com uma mulher que, até então, não sabia " +
                           "quem era. Nos três anos seguintes, ela começou a se demonstrar uma perseguidora, " +
                           "completamente obcecada por ele.",
 
@@ -210,6 +249,26 @@ namespace App_Amatec.Model
                 forma_consumo = "Amazon\nPrime Vídeo",
 
                 link_trailer = "https://www.youtube.com/embed/zGyKzPsmxF8?si=d6g2GTEw4EXd7Vx0"
+
+            },
+
+            new Content()
+            {
+
+                nome = "Avatar (Temporada 01)",
+
+                sinopse = "As quatro nações viviam em harmonia com o Avatar, mestre de todos os quatro elementos, " +
+                          "mantendo a paz entre todos, mas tudo mudou, quando a Nação do Fogo atacou e exterminou os " +
+                          "Nômades do Ar, para os dobradores de fogo conquistarem o mundo. Com o desaparecimento do " +
+                          "Avatar, o mundo perdeu a esperança.",
+
+                poster = "App_Amatec.Assets.Images.Series.04.jpg",
+
+                data_lancamento = new DateTime(2024, 02, 22),
+
+                forma_consumo = "Netflix",
+
+                link_trailer = "https://www.youtube.com/embed/5llvd1Uu-iU?si=nHIVsx-YYpeepP3W"
 
             }
 

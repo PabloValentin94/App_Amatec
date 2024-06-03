@@ -27,25 +27,17 @@
 
         <Tab Title="About" Route="About">
 
-            <ShellContent Title="Home"
-                          ContentTemplate="{DataTemplate local:Home}"
-                          Route="Home"/>
+            <ShellContent Title="Home" ContentTemplate="{DataTemplate local:Home}"/>
 
         </Tab>
 
         <Tab Title="Content" Route="Content">
 
-            <ShellContent Title="Animes"
-                          ContentTemplate="{DataTemplate local:Pages.Animes}"
-                          Route="Animes"/>
+            <ShellContent x:Name="page_animes" Title="Animes" Route="Animes"/>
 
-            <ShellContent Title="Movies"
-                          ContentTemplate="{DataTemplate local:Pages.Movies}"
-                          Route="Movies"/>
+            <ShellContent x:Name="page_movies" Title="Movies" Route="Movies"/>
 
-            <ShellContent Title="Series"
-                          ContentTemplate="{DataTemplate local:Pages.Series}"
-                          Route="Series"/>
+            <ShellContent x:Name="page_series" Title="Series" Route="Series"/>
 
         </Tab>
 

@@ -26,6 +26,10 @@
                              Clicked="imgbtn_kaiju_n8_Clicked"
                              Grid.Column="0" Grid.Row="1"/>
 
+                <ImageButton x:Name="imgbtn_ninja_kamui" Style="{ StaticResource items_style }"
+                             Clicked="imgbtn_ninja_kamui_Clicked"
+                             Grid.Column="1" Grid.Row="1"/>
+
             </Grid>
             
         </ScrollView>

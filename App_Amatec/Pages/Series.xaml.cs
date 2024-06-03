@@ -26,6 +26,8 @@ public partial class Series : ContentPage
 
             imgbtn_fallout.Source = ImageSource.FromResource("App_Amatec.Assets.Images.Series.03.jpg");
 
+            imgbtn_avatar_a_lenda_de_aang_2024.Source = ImageSource.FromResource("App_Amatec.Assets.Images.Series.04.jpg");
+
         }
 
         catch (Exception ex)
@@ -92,6 +94,29 @@ public partial class Series : ContentPage
             Description description_page = new Description();
 
             description_page.BindingContext = Examples.series[2];
+
+            await Navigation.PushAsync(description_page);
+
+        }
+
+        catch (Exception ex)
+        {
+
+            await DisplayAlert("Erro!", ex.Message, "OK");
+
+        }
+
+    }
+
+    private async void imgbtn_avatar_a_lenda_de_aang_2024_Clicked(object sender, EventArgs e)
+    {
+
+        try
+        {
+
+            Description description_page = new Description();
+
+            description_page.BindingContext = Examples.series[3];
 
             await Navigation.PushAsync(description_page);
 
