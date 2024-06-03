@@ -175,7 +175,7 @@ namespace App_Amatec.Model
             new Content()
             {
 
-                nome = "Bebê Rena",
+                nome = "Bebê Rena (Minissérie)",
 
                 sinopse = "Ainda em 2015, quando trabalhava em um café na cidade de Londres, Donny " +
                           "(Richard Gadd), ofereceu um chá e conversou com uma mulher que, até então, não sabia " +
