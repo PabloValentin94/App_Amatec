@@ -16,7 +16,7 @@ namespace App_Amatec.Model
             new Content()
             {
 
-                nome = "Demon Slayer (Temporada 04)",
+                nome = "Demon Slayer\n(Temporada 04)",
 
                 sinopse = "Japão, era Taisho. Tanjiro, um bondoso jovem que ganha a vida vendendo carvão, " +
                           "descobre que sua família foi massacrada por um demônio, e, para piorar, Nezuko, sua " +
@@ -38,7 +38,7 @@ namespace App_Amatec.Model
             new Content()
             {
 
-                nome = "Solo Leveling (Temporada 01)",
+                nome = "Solo Leveling\n(Temporada 01)",
 
                 sinopse = "Conhecido como o caçador mais fraco de toda a humanidade, a contribuição do caçador de " +
                           "rank E, Sung Jin Woo, nas invasões de masmorras, se resume ao equivalente a tentar não ser morto. " +
@@ -61,7 +61,7 @@ namespace App_Amatec.Model
             new Content()
             {
 
-                nome = "Kaiju Nº 8 (Temporada 01)",
+                nome = "Kaiju Nº 8\n(Temporada 01)",
 
                 sinopse = "Monstros grotescos, semelhantes ao Godzilla e conhecidos pelo termo “Kaiju”, têm surgido pelo " +
                           "Japão durante vários anos. Para lutar contra essas feras, uma unidade militar de elite, " +
@@ -90,7 +90,7 @@ namespace App_Amatec.Model
             new Content()
             {
 
-                nome = "Ninja Kamui (Temporada 01)",
+                nome = "Ninja Kamui\n(Temporada 01)",
 
                 sinopse = "Joe Higan, um Nukenin (Ninja renegado.), escapou de seu antigo clã e se esconde " +
                           "do seu passado violento, na zona rural da América, com a sua família (Esposa e filho.). " +
@@ -195,7 +195,7 @@ namespace App_Amatec.Model
             new Content()
             {
 
-                nome = "Bridgerton (Temporada 03)",
+                nome = "Bridgerton\n(Temporada 03)",
 
                 sinopse = "Penelope sairá em busca de um marido, de preferência um que lhe ofereça " +
                           "independência o suficiente para que ela siga sua vida dupla como a grande Lady " +
@@ -214,7 +214,7 @@ namespace App_Amatec.Model
             new Content()
             {
 
-                nome = "Bebê Rena (Minissérie)",
+                nome = "Bebê Rena\n(Minissérie)",
 
                 sinopse = "Ainda em 2015, quando trabalhava em um café, na cidade de Londres, Donny " +
                           "(Richard Gadd.), ofereceu um chá e conversou com uma mulher que, até então, não sabia " +
@@ -234,7 +234,7 @@ namespace App_Amatec.Model
             new Content()
             {
 
-                nome = "Fallout (Temporada 01)",
+                nome = "Fallout\n(Temporada 01)",
 
                 sinopse = "Baseada em uma das maiores séries de videogame de todos os tempos, Fallout " +
                           "é a história de quem tem e de quem não tem, em um mundo onde não existe quase " +
@@ -255,7 +255,7 @@ namespace App_Amatec.Model
             new Content()
             {
 
-                nome = "Avatar (Temporada 01)",
+                nome = "Avatar\n(Temporada 01)",
 
                 sinopse = "As quatro nações viviam em harmonia com o Avatar, mestre de todos os quatro elementos, " +
                           "mantendo a paz entre todos, mas tudo mudou, quando a Nação do Fogo atacou e exterminou os " +
