@@ -1,0 +1,3 @@
+- É importante destacar que esta APK foi gerada com intuito acadêmico, ou seja, não será obtido nenhum lucro em cima disso;
+
+- O objetivo desta APK é voltado para testes, ou seja, ela servirá para se analisar o funcionamento do aplicativo em um dispositivo físico.
