@@ -57,15 +57,6 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <None Remove="Assets\Images\Animes\04.jpg" />
-	  <None Remove="Assets\Images\Animes\05.jpg" />
-	  <None Remove="Assets\Images\Icons\About.png" />
-	  <None Remove="Assets\Images\Icons\Content.png" />
-	  <None Remove="Assets\Images\Movies\05.jpg" />
-	  <None Remove="Assets\Images\Series\05.jpg" />
-	</ItemGroup>
-
-	<ItemGroup>
 	  <EmbeddedResource Include="Assets\Images\Animes\01.jpg">
 	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
 	  </EmbeddedResource>
