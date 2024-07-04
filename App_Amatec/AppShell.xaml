@@ -17,21 +17,22 @@
 
             <Setter Property="Shell.TabBarBackgroundColor" Value="{ StaticResource cor_pagina }"/>
             <Setter Property="Shell.TabBarTitleColor" Value="{ StaticResource cor_principal }"/>
+            <Setter Property="Shell.TabBarForegroundColor" Value="{ StaticResource cor_principal }"/>
             <Setter Property="Shell.TabBarUnselectedColor" Value="{ StaticResource cor_neutra }"/>
 
         </Style>
-        
+
     </Shell.Style>
 
     <TabBar>
 
-        <Tab Title="About" Route="About">
+        <Tab x:Name="tab_about" Title="About" Route="About">
 
             <ShellContent Title="Home" ContentTemplate="{DataTemplate local:Home}"/>
 
         </Tab>
 
-        <Tab Title="Content" Route="Content">
+        <Tab x:Name="tab_content" Title="Content" Route="Content">
 
             <ShellContent x:Name="page_animes" Title="Animes" Route="Animes"/>
 

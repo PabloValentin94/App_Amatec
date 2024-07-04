@@ -1,0 +1,3 @@
+Como gerar uma APK de um aplicativo android pelo Visual Studio:
+
+https://www.youtube.com/watch?v=Ag9IPz7gpBU

@@ -18,7 +18,7 @@ public partial class Home : ContentPage
         try
         {
 
-            img_icone.Source = ImageSource.FromResource("App_Amatec.Assets.Images.Icon.png");
+            img_icone.Source = ImageSource.FromResource("App_Amatec.Assets.Images.Image.png");
 
         }
 

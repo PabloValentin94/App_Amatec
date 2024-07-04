@@ -21,6 +21,14 @@ namespace App_Amatec
             try
             {
 
+                // Ícones - Abas inferiores:
+
+                tab_about.Icon = ImageSource.FromResource("App_Amatec.Assets.Images.Icons.About.png");
+
+                tab_content.Icon = ImageSource.FromResource("App_Amatec.Assets.Images.Icons.Content.png");
+
+                // Páginas - Abas superiores:
+
                 page_animes.Content = new Animes();
 
                 page_movies.Content = new Movies();

@@ -30,6 +30,10 @@
                              Clicked="imgbtn_venom_03_Clicked"
                              Grid.Column="1" Grid.Row="1"/>
 
+                <ImageButton x:Name="imgbtn_operacao_natal" Style="{ StaticResource items_style }"
+                             Clicked="imgbtn_operacao_natal_Clicked"
+                             Grid.Column="0" Grid.Row="2"/>
+
             </Grid>
 
         </ScrollView>

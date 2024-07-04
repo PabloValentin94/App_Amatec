@@ -28,6 +28,8 @@ public partial class Series : ContentPage
 
             imgbtn_avatar_a_lenda_de_aang_2024.Source = ImageSource.FromResource("App_Amatec.Assets.Images.Series.04.jpg");
 
+            imgbtn_cobra_kai.Source = ImageSource.FromResource("App_Amatec.Assets.Images.Series.05.jpg");
+
         }
 
         catch (Exception ex)
@@ -117,6 +119,29 @@ public partial class Series : ContentPage
             Description description_page = new Description();
 
             description_page.BindingContext = Examples.series[3];
+
+            await Navigation.PushAsync(description_page);
+
+        }
+
+        catch (Exception ex)
+        {
+
+            await DisplayAlert("Erro!", ex.Message, "OK");
+
+        }
+
+    }
+
+    private async void imgbtn_cobra_kai_Clicked(object sender, EventArgs e)
+    {
+
+        try
+        {
+
+            Description description_page = new Description();
+
+            description_page.BindingContext = Examples.series[4];
 
             await Navigation.PushAsync(description_page);
 

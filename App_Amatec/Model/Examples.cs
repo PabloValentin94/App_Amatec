@@ -10,6 +10,8 @@ namespace App_Amatec.Model
     public class Examples
     {
 
+        // Animes:
+
         public static List<Content> animes = new List<Content>()
         {
         
@@ -90,6 +92,48 @@ namespace App_Amatec.Model
             new Content()
             {
 
+                nome = "Wind Breaker\n(Temporada 01)",
+
+                sinopse = "Aqui as médias de notas são mais baixas, mas as lutas são as mais intensas! A Escola " +
+                          "Furin é conhecida como uma superescola de delinquentes! Haruka Sakura, um estudante do " +
+                          "primeiro ano do ensino médio, veio de fora da cidade pronto para lutar e conquistar o topo… " +
+                          "No entanto, a Escola Furin acabou se tornando um grupo que protege a cidade! É aqui que a " +
+                          "lenda heroica do delinquente Sakura no ensino médio começa!",
+
+                poster = "App_Amatec.Assets.Images.Animes.04.jpg",
+
+                data_lancamento = new DateTime(2024, 04, 04),
+
+                forma_consumo = "Crunchyroll",
+
+                link_trailer = "https://www.youtube.com/embed/k_CItzO4DkA?si=C-Ul5EGTW0WZmFtr"
+
+            },
+
+            new Content()
+            {
+
+                nome = "Kenka Dokugaku\n(Temporada 01)",
+
+                sinopse = "O estudante magricelo do ensino médio, Hobin Yu, é provavelmente o último cara que você " +
+                          "esperaria ver como protagonista de um canal do NewTube focado em lutas, mas depois de " +
+                          "seguir alguns conselhos que viu em um misterioso canal no NewTube, ele começa a derrotar " +
+                          "caras bem mais fortes que o mesmo e ganha mais dinheiro do que jamais poderia imaginar. " +
+                          "Será que Hobin conseguirá manter isso? Ou acabará encontrando um adversário à altura?",
+
+                poster = "App_Amatec.Assets.Images.Animes.05.jpg",
+
+                data_lancamento = new DateTime(2024, 04, 11),
+
+                forma_consumo = "Crunchyroll",
+
+                link_trailer = "https://www.youtube.com/embed/y1Z1e7jC0eo?si=kEVZxv1gLOY2QokE"
+
+            },
+
+            new Content()
+            {
+
                 nome = "Ninja Kamui\n(Temporada 01)",
 
                 sinopse = "Joe Higan, um Nukenin (Ninja renegado.), escapou de seu antigo clã e se esconde " +
@@ -98,7 +142,7 @@ namespace App_Amatec.Model
                           "organização, que impõem uma retribuição sangrenta a ele, matando sua família, devido " +
                           "a ele ter traído o seu antigo código.",
 
-                poster = "App_Amatec.Assets.Images.Animes.04.jpg",
+                poster = "App_Amatec.Assets.Images.Animes.06.jpg",
 
                 data_lancamento = new DateTime(2024, 02, 11),
 
@@ -109,6 +153,8 @@ namespace App_Amatec.Model
             }
 
         };
+
+        // Filmes:
 
         public static List<Content> movies = new List<Content>()
         {
@@ -185,9 +231,33 @@ namespace App_Amatec.Model
 
                 link_trailer = "https://www.youtube.com/embed/c-1i96qpF-s?si=i4o7dexr8Dclnij4"
 
+            },
+
+            new Content()
+            {
+
+                nome = "Operação Natal",
+
+                sinopse = "Depois que o Papai Noel (Também chamado de Das Neves.) é sequestrado, o Chefe " +
+                          "de Segurança do Polo Norte (Dwayne Johnson) deve se unir ao mais infame caçador " +
+                          "de recompensas do mundo (Chris Evans) em uma missão global e cheia de ação para " +
+                          "salvar o Natal.",
+
+                poster = "App_Amatec.Assets.Images.Movies.05.jpg",
+
+                data_lancamento = new DateTime(2024, 11, 14),
+
+                forma_consumo = "Cinemas",
+
+                link_trailer = "https://www.youtube.com/embed/JE1fRhgrO3k?si=ZFZpWph3lvc5Yk5x"
+
+                // O trailer será substituído em breve.
+
             }
 
         };
+
+        // Séries:
 
         public static List<Content> series = new List<Content>()
         {
@@ -269,6 +339,26 @@ namespace App_Amatec.Model
                 forma_consumo = "Netflix",
 
                 link_trailer = "https://www.youtube.com/embed/5llvd1Uu-iU?si=nHIVsx-YYpeepP3W"
+
+            },
+
+            new Content()
+            {
+
+                nome = "Cobra Kai\n(Temporada 06 Parte 01)",
+
+                sinopse = "Com o Cobra Kai fora do Regional, os senseis e alunos precisam decidir se vão competir " +
+                          "no Sekai Taikai, o torneio mundial de caratê, e como farão isso.",
+
+                poster = "App_Amatec.Assets.Images.Series.05.jpg",
+
+                data_lancamento = new DateTime(2024, 07, 18),
+
+                forma_consumo = "Netflix",
+
+                link_trailer = "https://www.youtube.com/embed/4i21ty_umRM?si=G1VytjzQFF3R9F4Y"
+
+                // O trailer será substituído em breve.
 
             }
 

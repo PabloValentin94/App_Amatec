@@ -48,7 +48,7 @@
 
                 <Setter Property="Padding" Value="5"/>
                 <Setter Property="ColumnDefinitions" Value="*,*"/>
-                <Setter Property="RowDefinitions" Value="*,*"/>
+                <Setter Property="RowDefinitions" Value="*,*,*"/>
                 <Setter Property="ColumnSpacing" Value="5"/>
                 <Setter Property="RowSpacing" Value="5"/>
 

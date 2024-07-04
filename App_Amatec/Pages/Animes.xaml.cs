@@ -26,7 +26,11 @@ public partial class Animes : ContentPage
 
             imgbtn_kaiju_n8.Source = ImageSource.FromResource("App_Amatec.Assets.Images.Animes.03.jpg");
 
-            imgbtn_ninja_kamui.Source = ImageSource.FromResource("App_Amatec.Assets.Images.Animes.04.jpg");
+            imgbtn_wind_breaker.Source = ImageSource.FromResource("App_Amatec.Assets.Images.Animes.04.jpg");
+
+            imgbtn_kenka_dokugaku.Source = ImageSource.FromResource("App_Amatec.Assets.Images.Animes.05.jpg");
+
+            imgbtn_ninja_kamui.Source = ImageSource.FromResource("App_Amatec.Assets.Images.Animes.06.jpg");
 
         }
 
@@ -108,7 +112,7 @@ public partial class Animes : ContentPage
 
     }
 
-    private async void imgbtn_ninja_kamui_Clicked(object sender, EventArgs e)
+    private async void imgbtn_wind_breaker_Clicked(object sender, EventArgs e)
     {
 
         try
@@ -117,6 +121,52 @@ public partial class Animes : ContentPage
             Description description_page = new Description();
 
             description_page.BindingContext = Examples.animes[3];
+
+            await Navigation.PushAsync(description_page);
+
+        }
+
+        catch (Exception ex)
+        {
+
+            await DisplayAlert("Erro!", ex.Message, "OK");
+
+        }
+
+    }
+
+    private async void imgbtn_kenka_dokugaku_Clicked(object sender, EventArgs e)
+    {
+
+        try
+        {
+
+            Description description_page = new Description();
+
+            description_page.BindingContext = Examples.animes[4];
+
+            await Navigation.PushAsync(description_page);
+
+        }
+
+        catch (Exception ex)
+        {
+
+            await DisplayAlert("Erro!", ex.Message, "OK");
+
+        }
+
+    }
+
+    private async void imgbtn_ninja_kamui_Clicked(object sender, EventArgs e)
+    {
+
+        try
+        {
+
+            Description description_page = new Description();
+
+            description_page.BindingContext = Examples.animes[5];
 
             await Navigation.PushAsync(description_page);
 

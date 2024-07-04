@@ -26,9 +26,17 @@
                              Clicked="imgbtn_kaiju_n8_Clicked"
                              Grid.Column="0" Grid.Row="1"/>
 
+                <ImageButton x:Name="imgbtn_wind_breaker" Style="{ StaticResource items_style }"
+                             Clicked="imgbtn_wind_breaker_Clicked"
+                             Grid.Column="1" Grid.Row="1"/>
+
+                <ImageButton x:Name="imgbtn_kenka_dokugaku" Style="{ StaticResource items_style }"
+                             Clicked="imgbtn_kenka_dokugaku_Clicked"
+                             Grid.Column="0" Grid.Row="2"/>
+
                 <ImageButton x:Name="imgbtn_ninja_kamui" Style="{ StaticResource items_style }"
                              Clicked="imgbtn_ninja_kamui_Clicked"
-                             Grid.Column="1" Grid.Row="1"/>
+                             Grid.Column="1" Grid.Row="2"/>
 
             </Grid>
             

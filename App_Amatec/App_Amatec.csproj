@@ -57,6 +57,15 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <None Remove="Assets\Images\Animes\04.jpg" />
+	  <None Remove="Assets\Images\Animes\05.jpg" />
+	  <None Remove="Assets\Images\Icons\About.png" />
+	  <None Remove="Assets\Images\Icons\Content.png" />
+	  <None Remove="Assets\Images\Movies\05.jpg" />
+	  <None Remove="Assets\Images\Series\05.jpg" />
+	</ItemGroup>
+
+	<ItemGroup>
 	  <EmbeddedResource Include="Assets\Images\Animes\01.jpg">
 	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
 	  </EmbeddedResource>
@@ -66,10 +75,22 @@
 	  <EmbeddedResource Include="Assets\Images\Animes\03.jpg">
 	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
 	  </EmbeddedResource>
+	  <EmbeddedResource Include="Assets\Images\Animes\05.jpg">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </EmbeddedResource>
 	  <EmbeddedResource Include="Assets\Images\Animes\04.jpg">
 	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
 	  </EmbeddedResource>
-	  <EmbeddedResource Include="Assets\Images\Icon.png">
+	  <EmbeddedResource Include="Assets\Images\Animes\06.jpg">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </EmbeddedResource>
+	  <EmbeddedResource Include="Assets\Images\Image.png">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </EmbeddedResource>
+	  <EmbeddedResource Include="Assets\Images\Icons\About.png">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </EmbeddedResource>
+	  <EmbeddedResource Include="Assets\Images\Icons\Content.png">
 	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
 	  </EmbeddedResource>
 	  <EmbeddedResource Include="Assets\Images\Movies\01.jpg">
@@ -84,6 +105,9 @@
 	  <EmbeddedResource Include="Assets\Images\Movies\04.jpg">
 	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
 	  </EmbeddedResource>
+	  <EmbeddedResource Include="Assets\Images\Movies\05.jpg">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </EmbeddedResource>
 	  <EmbeddedResource Include="Assets\Images\Series\01.jpg">
 	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
 	  </EmbeddedResource>
@@ -94,6 +118,9 @@
 	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
 	  </EmbeddedResource>
 	  <EmbeddedResource Include="Assets\Images\Series\04.jpg">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </EmbeddedResource>
+	  <EmbeddedResource Include="Assets\Images\Series\05.jpg">
 	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
 	  </EmbeddedResource>
 	</ItemGroup>
