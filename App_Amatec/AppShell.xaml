@@ -4,13 +4,12 @@
        xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
        xmlns:local="clr-namespace:App_Amatec"
        Shell.FlyoutBehavior="Disabled"
+       Shell.NavBarIsVisible="False"
        Title="App_Amatec">
 
     <Shell.Style>
 
         <Style TargetType="Shell">
-
-            <Setter Property="Shell.NavBarIsVisible" Value="False"/>
 
             <Setter Property="Shell.BackgroundColor" Value="{ StaticResource cor_pagina }"/>
             <Setter Property="Shell.TitleColor" Value="{ StaticResource cor_principal }"/>
