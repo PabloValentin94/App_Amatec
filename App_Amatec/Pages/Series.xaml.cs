@@ -22,13 +22,13 @@ public partial class Series : ContentPage
 
             imgbtn_bridgerton.Source = ImageSource.FromResource("App_Amatec.Assets.Images.Series.01.jpg");
 
-            imgbtn_bebe_rena.Source = ImageSource.FromResource("App_Amatec.Assets.Images.Series.02.jpg");
+            imgbtn_the_boys.Source = ImageSource.FromResource("App_Amatec.Assets.Images.Series.02.jpg");
 
-            imgbtn_fallout.Source = ImageSource.FromResource("App_Amatec.Assets.Images.Series.03.jpg");
+            imgbtn_cobra_kai.Source = ImageSource.FromResource("App_Amatec.Assets.Images.Series.03.jpg");
 
-            imgbtn_avatar_a_lenda_de_aang_2024.Source = ImageSource.FromResource("App_Amatec.Assets.Images.Series.04.jpg");
+            imgbtn_fallout.Source = ImageSource.FromResource("App_Amatec.Assets.Images.Series.04.jpg");
 
-            imgbtn_cobra_kai.Source = ImageSource.FromResource("App_Amatec.Assets.Images.Series.05.jpg");
+            imgbtn_avatar_a_lenda_de_aang_2024.Source = ImageSource.FromResource("App_Amatec.Assets.Images.Series.05.jpg");
 
         }
 
@@ -64,7 +64,7 @@ public partial class Series : ContentPage
 
     }
 
-    private async void imgbtn_bebe_rena_Clicked(object sender, EventArgs e)
+    private async void imgbtn_the_boys_Clicked(object sender, EventArgs e)
     {
 
         try
@@ -87,7 +87,7 @@ public partial class Series : ContentPage
 
     }
 
-    private async void imgbtn_fallout_Clicked(object sender, EventArgs e)
+    private async void imgbtn_cobra_kai_Clicked(object sender, EventArgs e)
     {
 
         try
@@ -110,7 +110,7 @@ public partial class Series : ContentPage
 
     }
 
-    private async void imgbtn_avatar_a_lenda_de_aang_2024_Clicked(object sender, EventArgs e)
+    private async void imgbtn_fallout_Clicked(object sender, EventArgs e)
     {
 
         try
@@ -133,7 +133,7 @@ public partial class Series : ContentPage
 
     }
 
-    private async void imgbtn_cobra_kai_Clicked(object sender, EventArgs e)
+    private async void imgbtn_avatar_a_lenda_de_aang_2024_Clicked(object sender, EventArgs e)
     {
 
         try

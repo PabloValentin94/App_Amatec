@@ -34,6 +34,10 @@
                              Clicked="imgbtn_operacao_natal_Clicked"
                              Grid.Column="0" Grid.Row="2"/>
 
+                <ImageButton x:Name="imgbtn_gladiador_02" Style="{ StaticResource items_style }"
+                             Clicked="imgbtn_gladiador_02_Clicked"
+                             Grid.Column="1" Grid.Row="2"/>
+
             </Grid>
 
         </ScrollView>

@@ -30,11 +30,11 @@ public partial class Animes : ContentPage
 
             imgbtn_kenka_dokugaku.Source = ImageSource.FromResource("App_Amatec.Assets.Images.Animes.05.jpg");
 
-            imgbtn_ninja_kamui.Source = ImageSource.FromResource("App_Amatec.Assets.Images.Animes.06.jpg");
+            imgbtn_fairy_tail_100_years_quest.Source = ImageSource.FromResource("App_Amatec.Assets.Images.Animes.06.jpg");
 
         }
 
-        catch(Exception ex)
+        catch (Exception ex)
         {
 
             await DisplayAlert("Erro!", ex.Message, "OK");
@@ -158,7 +158,7 @@ public partial class Animes : ContentPage
 
     }
 
-    private async void imgbtn_ninja_kamui_Clicked(object sender, EventArgs e)
+    private async void imgbtn_fairy_tail_100_years_quest_Clicked(object sender, EventArgs e)
     {
 
         try

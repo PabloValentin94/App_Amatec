@@ -107,7 +107,7 @@
 
                             <Label Text="Sinopse:" Style="{ StaticResource datas_style }"/>
 
-                            <Label Text="{ Binding sinopse }" Style="{ StaticResource labels_style }"/>
+                            <Label Text="{ Binding sinopse }" Padding="10,0,10,0" Style="{ StaticResource labels_style }"/>
 
                         </VerticalStackLayout>
 

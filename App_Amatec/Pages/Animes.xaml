@@ -34,8 +34,8 @@
                              Clicked="imgbtn_kenka_dokugaku_Clicked"
                              Grid.Column="0" Grid.Row="2"/>
 
-                <ImageButton x:Name="imgbtn_ninja_kamui" Style="{ StaticResource items_style }"
-                             Clicked="imgbtn_ninja_kamui_Clicked"
+                <ImageButton x:Name="imgbtn_fairy_tail_100_years_quest" Style="{ StaticResource items_style }"
+                             Clicked="imgbtn_fairy_tail_100_years_quest_Clicked"
                              Grid.Column="1" Grid.Row="2"/>
 
             </Grid>

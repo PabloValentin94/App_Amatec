@@ -30,6 +30,8 @@ public partial class Movies : ContentPage
 
             imgbtn_operacao_natal.Source = ImageSource.FromResource("App_Amatec.Assets.Images.Movies.05.jpg");
 
+            imgbtn_gladiador_02.Source = ImageSource.FromResource("App_Amatec.Assets.Images.Movies.06.jpg");
+
         }
 
         catch (Exception ex)
@@ -142,6 +144,29 @@ public partial class Movies : ContentPage
             Description description_page = new Description();
 
             description_page.BindingContext = Examples.movies[4];
+
+            await Navigation.PushAsync(description_page);
+
+        }
+
+        catch (Exception ex)
+        {
+
+            await DisplayAlert("Erro!", ex.Message, "OK");
+
+        }
+
+    }
+
+    private async void imgbtn_gladiador_02_Clicked(object sender, EventArgs e)
+    {
+
+        try
+        {
+
+            Description description_page = new Description();
+
+            description_page.BindingContext = Examples.movies[5];
 
             await Navigation.PushAsync(description_page);
 

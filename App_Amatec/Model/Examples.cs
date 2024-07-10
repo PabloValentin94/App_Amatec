@@ -40,7 +40,7 @@ namespace App_Amatec.Model
             new Content()
             {
 
-                nome = "Solo Leveling\n(Temporada 01)",
+                nome = "Solo Leveling\n(Temporada 02)",
 
                 sinopse = "Conhecido como o caçador mais fraco de toda a humanidade, a contribuição do caçador de " +
                           "rank E, Sung Jin Woo, nas invasões de masmorras, se resume ao equivalente a tentar não ser morto. " +
@@ -52,11 +52,13 @@ namespace App_Amatec.Model
 
                 poster = "App_Amatec.Assets.Images.Animes.02.jpg",
 
-                data_lancamento = new DateTime(2024, 01, 06),
+                data_lancamento = new DateTime(2024, 08, 31),
+
+                // Data fictícia. A data de lançamento será substituída em breve.
 
                 forma_consumo = "Crunchyroll",
 
-                link_trailer = "https://www.youtube.com/embed/1ZrcPyhO54c?si=Qbl1FHl1dAUlX5jl"
+                link_trailer = "https://www.youtube.com/embed/hYzNkVCIUfk?si=V27KxTZzZaEL6MtN"
 
             },
 
@@ -134,21 +136,25 @@ namespace App_Amatec.Model
             new Content()
             {
 
-                nome = "Ninja Kamui\n(Temporada 01)",
+                nome = "Fairy Tail\n(Missão de 100 anos)",
 
-                sinopse = "Joe Higan, um Nukenin (Ninja renegado.), escapou de seu antigo clã e se esconde " +
-                          "do seu passado violento, na zona rural da América, com a sua família (Esposa e filho.). " +
-                          "Uma noite, ele é emboscado por uma equipe de assassinos, que pertencem a sua antiga " +
-                          "organização, que impõem uma retribuição sangrenta a ele, matando sua família, devido " +
-                          "a ele ter traído o seu antigo código.",
+                sinopse = "Um ano depois que a guilda Fairy Tail superou as forças diabólicas " +
+                          "de Acnologia e Zeref, Natsu e sua equipe viajam para o continente " +
+                          "norte de Guiltina, onde procuram o empregador da Quest de 100 Anos " +
+                          "e recebem sua missão quase impossível: selar os Cinco Deuses Dragões " +
+                          "(Eles são um grupo de indivíduos com um poder tão grande que, se deixados " +
+                          "sozinhos, poderiam causar uma devastação global.). Enquanto isso, um " +
+                          "novo membro espirituoso, chamada Touka, é recrutado para a Fairy Tail. " +
+                          "Embora sua energia vibrante e natureza apaixonada a tornem perfeita " +
+                          "para a guilda, parece haver mais nela do que aparenta.",
 
                 poster = "App_Amatec.Assets.Images.Animes.06.jpg",
 
-                data_lancamento = new DateTime(2024, 02, 11),
+                data_lancamento = new DateTime(2024, 07, 07),
 
-                forma_consumo = "HBO Max",
+                forma_consumo = "Crunchyroll",
 
-                link_trailer = "https://www.youtube.com/embed/90whRiEwxnU?si=N8au7rAFxRAgoDVc"
+                link_trailer = "https://www.youtube.com/embed/tFvzUUdMAug?si=Hs2-s_RLjPo6f1Uz"
 
             }
 
@@ -253,6 +259,25 @@ namespace App_Amatec.Model
 
                 // O trailer será substituído em breve.
 
+            },
+
+            new Content()
+            {
+
+                nome = "Gladiador II",
+
+                sinopse = "A história é focada em Lucius, anos depois de testemunhar a morte do venerado " +
+                          "herói Maximus. Ele é forçado a entrar no Coliseu, após seu lar ser conquistado " +
+                          "pelos imperadores tirânicos que agora comandam Roma com mão de ferro.",
+
+                poster = "App_Amatec.Assets.Images.Movies.06.jpg",
+
+                data_lancamento = new DateTime(2024, 11, 14),
+
+                forma_consumo = "Cinemas",
+
+                link_trailer = "https://www.youtube.com/embed/Gvu6ktSUln0?si=EyaZ1T4Yz1KDmTHD"
+
             }
 
         };
@@ -284,20 +309,41 @@ namespace App_Amatec.Model
             new Content()
             {
 
-                nome = "Bebê Rena\n(Minissérie)",
+                nome = "The Boys\n(Temporada 04)",
 
-                sinopse = "Ainda em 2015, quando trabalhava em um café, na cidade de Londres, Donny " +
-                          "(Richard Gadd.), ofereceu um chá e conversou com uma mulher que, até então, não sabia " +
-                          "quem era. Nos três anos seguintes, ela começou a se demonstrar uma perseguidora, " +
-                          "completamente obcecada por ele.",
+                sinopse = "Nos novos episódios de The Boys, o mundo está à beira de um colapso. " +
+                          "Victoria Neuman está mais perto do que nunca do Salão Oval e sob o " +
+                          "domínio de Capitão Pátria, que está consolidando seu poder. Billy Bruto, " +
+                          "com apenas alguns meses restantes de vida, perdeu o filho de Becca e seu " +
+                          "emprego como líder dos The Boys. O resto da equipe está farto de suas " +
+                          "mentiras. Com os riscos mais altos do que nunca, eles precisam encontrar " +
+                          "uma maneira de trabalhar juntos e salvar o mundo antes que seja tarde demais.",
 
                 poster = "App_Amatec.Assets.Images.Series.02.jpg",
 
-                data_lancamento = new DateTime(2024, 04, 11),
+                data_lancamento = new DateTime(2024, 06, 13),
+
+                forma_consumo = "Amazon\nPrime Vídeo",
+
+                link_trailer = "https://www.youtube.com/embed/m1lv458bxdg?si=9QwPJ846MpZ9hskr"
+
+            },
+
+            new Content()
+            {
+
+                nome = "Cobra Kai\n(Temporada 06 Parte 01)",
+
+                sinopse = "Com o Cobra Kai fora do Regional, os senseis e alunos precisam decidir se vão competir " +
+                          "no Sekai Taikai, o torneio mundial de caratê, e como farão isso.",
+
+                poster = "App_Amatec.Assets.Images.Series.03.jpg",
+
+                data_lancamento = new DateTime(2024, 07, 18),
 
                 forma_consumo = "Netflix",
 
-                link_trailer = "https://www.youtube.com/embed/RXxkJiLqCLE?si=IdqF721r49GmJD9p"
+                link_trailer = "https://www.youtube.com/embed/0TAXIXlY69I?si=nn2cddZLannTc4Yx"
 
             },
 
@@ -312,7 +358,7 @@ namespace App_Amatec.Model
                           "agradável refúgio, é forçada a se aventurar na superfície, e fica chocada quando " +
                           "descobre a terra devastada que a espera.",
 
-                poster = "App_Amatec.Assets.Images.Series.03.jpg",
+                poster = "App_Amatec.Assets.Images.Series.04.jpg",
 
                 data_lancamento = new DateTime(2024, 04, 11),
 
@@ -332,33 +378,13 @@ namespace App_Amatec.Model
                           "Nômades do Ar, para os dobradores de fogo conquistarem o mundo. Com o desaparecimento do " +
                           "Avatar, o mundo perdeu a esperança.",
 
-                poster = "App_Amatec.Assets.Images.Series.04.jpg",
+                poster = "App_Amatec.Assets.Images.Series.05.jpg",
 
                 data_lancamento = new DateTime(2024, 02, 22),
 
                 forma_consumo = "Netflix",
 
                 link_trailer = "https://www.youtube.com/embed/5llvd1Uu-iU?si=nHIVsx-YYpeepP3W"
-
-            },
-
-            new Content()
-            {
-
-                nome = "Cobra Kai\n(Temporada 06 Parte 01)",
-
-                sinopse = "Com o Cobra Kai fora do Regional, os senseis e alunos precisam decidir se vão competir " +
-                          "no Sekai Taikai, o torneio mundial de caratê, e como farão isso.",
-
-                poster = "App_Amatec.Assets.Images.Series.05.jpg",
-
-                data_lancamento = new DateTime(2024, 07, 18),
-
-                forma_consumo = "Netflix",
-
-                link_trailer = "https://www.youtube.com/embed/4i21ty_umRM?si=G1VytjzQFF3R9F4Y"
-
-                // O trailer será substituído em breve.
 
             }
 
